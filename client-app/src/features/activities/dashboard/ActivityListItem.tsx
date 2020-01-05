@@ -22,7 +22,7 @@ export const ActivityListItem: React.FC<{ activity: IActivity }> = ({
       </Segment>
       <Segment>
         <Icon name="clock" />
-        {format(activity.date!, "h:mm a")}
+        {format(activity.date, "h:mm a")}
         <Icon name="marker" />
         {activity.venue}, {activity.city}
       </Segment>

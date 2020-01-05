@@ -1,6 +1,5 @@
 import React from "react";
 import { Form as FinalForm, Field } from "react-final-form";
-import { values } from "mobx";
 import { Form, Button } from "semantic-ui-react";
 import { TextInput } from "../../app/common/form/TextInput";
 
